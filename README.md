@@ -19,7 +19,7 @@
 > 用 `maison-des-mots-art-direction` 的方向，做一个「[你的产品]」的单页应用。
 > 保留奶白 + 银蓝 + 墨蓝的色板，Cormorant Garamond / Pinyon Script / Noto Serif SC / Special Elite 四种字，
 > 模切白边 + 1px 墨蓝线的纸感，左侧吊牌栏，右侧叠纸信笺，入场时间线与 reduced-motion。
-> 功能是 [一句话功能]。先给视觉方案，再落 React + Vite + GSAP；所有素材必须本地化并标注授权。
+> 功能是 [一句话功能]。先给视觉方案，再落 React + Vite + GSAP；所有素材必须本地化。
 
 ## 里面有什么
 
@@ -36,11 +36,3 @@
 ![创作台](images/studio.jpg)
 
 ![拼贴细节](images/detail.jpg)
-
-## 素材与授权
-
-- 纸样与山茶花来自 [Trianon](https://github.com/qimingjiu/Trianon)，作者声明为 CC0。
-- 拱廊版画为 The Met 公有领域馆藏（Francesco Guardi）。
-- 字体来自 Google Fonts（SIL OFL）：Cormorant Garamond、Pinyon Script、Noto Serif SC、Special Elite。
-
-`SKILL.md` 与示例图以 MIT 发布；第三方素材遵循其原始授权。

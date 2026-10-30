@@ -78,7 +78,7 @@ book-shell（最大 1680，外边距 22）
    │  ├─ hero-ledger（一行法文手写体 + 两端打字机小字）
    │  ├─ studio（左表单 / 右画布）
    │  ├─ inspiration（左侧标题 + 右侧档案列表）
-   │  └─ about（居中一段话 + 素材来源）
+   │  └─ about（居中一段话 + 回到创作台）
    └─ footer（3 段小字，中间品牌）
 ```
 
@@ -166,7 +166,7 @@ book-shell（最大 1680，外边距 22）
 > 用 `maison-des-mots-art-direction` 的方向，做一个「\[你的产品\]」的单页应用。
 > 保留：奶白 `#fbf9f4` + 银蓝 + 墨蓝的色板，Cormorant Garamond / Pinyon Script / Noto Serif SC / Special Elite 四种字，
 > 模切白边 + 1px 墨蓝线的纸感，左侧吊牌栏，右侧叠纸信笺，入场时间线与 reduced-motion。
-> 功能是 \[一句话功能\]。先给视觉方案，再落 React + Vite + GSAP；所有素材必须本地化并标注授权。
+> 功能是 \[一句话功能\]。先给视觉方案，再落 React + Vite + GSAP；所有素材必须本地化。
 
 更省事的做法：直接让它读本仓库的 `src/styles.css`、`src/components/HeroCollage.jsx`、
 `src/components/Studio.jsx`，按同样的 token 换内容，而不是重新发明一套纸。
@@ -179,9 +179,3 @@ book-shell（最大 1680，外边距 22）
 - [ ] reduced-motion / forced-colors / 200% zoom 不崩
 - [ ] 部署在子路径时素材全部加载（检查 `dist/assets/*.webp` 与 `import.meta.env.BASE_URL`）
 - [ ] 字体已本地化，断网/大陆网络下页面不出外部字体请求
-- [ ] 素材来源与字体授权写进 README
-
----
-
-素材：Trianon（CC0）的纸样与山茶花、The Met 的公有领域拱廊版画；字体均为 Google Fonts。
-仅参考视觉语言，不复制 Trianon 的业务代码、签名或水印。
