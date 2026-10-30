@@ -50,6 +50,10 @@ license: MIT
 - 法文花体：`Pinyon Script`（一句即可，别超过 2 处）
 - 档案/编号/注脚：`Special Elite`（替代 Courier 的更旧打字机感）
 
+> 中国大陆网络下 Google Fonts 经常不可用。上线前把字体本地化：拉丁字体直接用 woff2，
+> 中文用 `fontTools.subset` 按页面实际用字做子集（本项目 353 个汉字，变量字体约 206KB），
+> 页面就完全没有外部字体请求。
+
 **纸的物理感**：所有卡片共用一套阴影，不要发明第二种。
 
 ```css
@@ -174,6 +178,7 @@ book-shell（最大 1680，外边距 22）
 - [ ] 生成 → 打字 → 贴纸 → 复制 → 清空全链路可用；键盘可完成
 - [ ] reduced-motion / forced-colors / 200% zoom 不崩
 - [ ] 部署在子路径时素材全部加载（检查 `dist/assets/*.webp` 与 `import.meta.env.BASE_URL`）
+- [ ] 字体已本地化，断网/大陆网络下页面不出外部字体请求
 - [ ] 素材来源与字体授权写进 README
 
 ---
